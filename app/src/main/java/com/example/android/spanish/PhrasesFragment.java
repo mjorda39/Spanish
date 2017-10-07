@@ -70,7 +70,7 @@ public class PhrasesFragment extends Fragment {
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word("Buenos días", "Good morning", R.raw.span_morning));
         words.add(new Word("Buenas tardes", "Good afternoon", R.raw.span_afternoon));
-        words.add(new Word("Buenas noches", "Good evening/night", R.raw.span_night));
+        words.add(new Word("Buenas noches", "Good evening / night", R.raw.span_night));
         words.add(new Word("¿Cómo te llamas? / ¿Cuál es tu nombre?", "What's your name?", R.raw.span_yourname));
         words.add(new Word("Me llamo ... / Mi nombre es ...", "My name is ...", R.raw.span_myname));
         words.add(new Word("¿Cómo estás?", "How are you?", R.raw.span_hru));

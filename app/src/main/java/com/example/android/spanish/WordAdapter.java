@@ -40,7 +40,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
                     R.layout.list_item, parent, false);
         }
         //get the Word object located at the position in the list
-        final Word currentWord = getItem(position);
+        Word currentWord = getItem(position);
         //get and set ImageView
         ImageView image = (ImageView)listItemView.findViewById(R.id.image);
         if (currentWord.has_image()) {
